@@ -1,0 +1,11 @@
+character_tag: enemy_team
+character_animation_file_name: Shooter
+character_health: 30
+character_health_regen: 0.1
+character_damage: 10
+character_movement_speed: 15
+projectile_animation_file_name: EnemyProjectile
+projectile_explosion_file_name: EnemyProjectileExplosion
+projectile_amount: 4
+projectile_movement_speed: 80
+projectile_range: 850

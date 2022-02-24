@@ -1,0 +1,11 @@
+character_tag: player_team
+character_animation_file_name: Druid
+character_health: 200
+character_health_regen: 0.5
+character_damage: 15
+character_movement_speed: 25
+projectile_animation_file_name: DruidProjectile
+projectile_explosion_file_name: DruidProjectileExplosion
+projectile_amount: 9
+projectile_movement_speed: 60
+projectile_range: 550

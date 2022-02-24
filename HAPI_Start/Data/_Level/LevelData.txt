@@ -1,0 +1,4 @@
+FinalWave: 10
+ShooterHard 6
+TrooperHard 6
+TankHard 6

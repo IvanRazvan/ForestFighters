@@ -1,0 +1,11 @@
+character_tag: player_team
+character_animation_file_name: Warrior
+character_health: 350
+character_health_regen: 0.8
+character_damage: 25
+character_movement_speed: 20
+projectile_animation_file_name: WarriorProjectile
+projectile_explosion_file_name: WarriorProjectileExplosion
+projectile_amount: 7
+projectile_movement_speed: 35
+projectile_range: 300

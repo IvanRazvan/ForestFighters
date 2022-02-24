@@ -1,0 +1,11 @@
+character_tag: player_team
+character_animation_file_name: Ranger
+character_health: 250
+character_health_regen: 0.8
+character_damage: 10
+character_movement_speed: 25
+projectile_animation_file_name: RangerProjectile
+projectile_explosion_file_name: RangerProjectileExplosion
+projectile_amount: 7
+projectile_movement_speed: 60
+projectile_range: 700

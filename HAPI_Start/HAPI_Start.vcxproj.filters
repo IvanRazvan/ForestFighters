@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Visuals">
+      <UniqueIdentifier>{adf4427a-33a6-4aff-9523-7c22fda8db0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buttons">
+      <UniqueIdentifier>{a4ecb578-990d-4d0b-b180-84967fd2c35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buttons">
+      <UniqueIdentifier>{bfbefada-c11f-4b83-bc40-35dfa1148397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visuals">
+      <UniqueIdentifier>{d113c1f3-c90a-4396-ba09-12bc607aca48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld">
+      <UniqueIdentifier>{4f0c1aab-7bd4-4233-a073-e635eaaca78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld">
+      <UniqueIdentifier>{2893d8ee-6bf8-424e-950c-07a3cf60e5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{1293719d-638e-42c6-86ec-e70d8aab77d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{46ba7d1f-5627-4cc6-8aff-562d1453ec81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{9c17c273-4c4f-4753-9d70-537af314b66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{d654c419-db8f-42ec-b15a-23e2139fe227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld\StaticObjects">
+      <UniqueIdentifier>{59012bbe-ccf3-4d6d-a3c5-fdca93811394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld\DynamicObjects">
+      <UniqueIdentifier>{d537f31d-5b4d-4254-9612-6b0415b8ab33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld\StaticObjects">
+      <UniqueIdentifier>{e08d44d3-3210-48bc-836f-cdb523733d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld\DynamicObjects">
+      <UniqueIdentifier>{20cada4d-c1d5-433e-9387-a55f76a6e4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{3cacd7a7-9cf6-41fc-8abc-ba042b45b091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{7b57e1aa-1d6a-43d1-a2e9-c71ce8ab69d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{583c1206-c4a2-48c9-8887-4ed0e58fb63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{80314e78-a22a-465a-b569-af076459cfb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{eaec56f4-bc3d-4325-87e0-58e4491e3d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{239bd1de-daf9-4d50-b11d-dc78e3fba739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld\DynamicObjects\Character">
+      <UniqueIdentifier>{f3999b35-242a-4be0-b5bb-18eb48df0804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld\DynamicObjects\Character">
+      <UniqueIdentifier>{1f16b3bb-58cf-42db-b3b2-17fbc815b9d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterData.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterLibrary.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLibrary.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteData.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files\GameWorld\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>Source Files\GameWorld\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\GameWorld\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="BackButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelect.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSelectLoader.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="AICharacter.cpp">
+      <Filter>Source Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayableCharacter.cpp">
+      <Filter>Source Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterData.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLibrary.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLibrary.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteData.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files\GameWorld\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>Header Files\GameWorld\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\GameWorld\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="BackButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Header Files\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelect.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSelectLoader.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="AICharacter.h">
+      <Filter>Header Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayableCharacter.h">
+      <Filter>Header Files\GameWorld\DynamicObjects\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

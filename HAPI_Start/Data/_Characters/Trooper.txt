@@ -1,0 +1,11 @@
+character_tag: enemy_team
+character_animation_file_name: Trooper
+character_health: 40
+character_health_regen: 0
+character_damage: 30
+character_movement_speed: 13
+projectile_animation_file_name: EnemyProjectile
+projectile_explosion_file_name: EnemyProjectileExplosion
+projectile_amount: 5
+projectile_movement_speed: 30
+projectile_range: 300
